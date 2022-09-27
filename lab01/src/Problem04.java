@@ -8,10 +8,17 @@ public class Problem04 {
         System.out.print("2nd int? ");
         Scanner k = new Scanner(System.in);
         int y = k.nextInt();
+
         int sum = x + y;
         int sub = x - y;
         int mul = x * y;
         int div = x / y;
-        System.out.println("x+y= " + sum + "\nx-y=" + sub + "\nx*y=" + mul + "\nx/y=" + div );
+        int rem = x % y;
+
+        System.out.printf("%d + %d = %d\n", x, y, sum);
+        System.out.printf("%d - %d = %d\n", x, y, sub);
+        System.out.printf("%d * %d = %d\n", x, y, mul);
+        System.out.printf("%d / %d = %d\n", x, y, div);
+        System.out.printf("%d %% %d = %d", x, y, rem);
     }
 }

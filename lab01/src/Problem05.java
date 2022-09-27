@@ -11,6 +11,12 @@ public class Problem05 {
         double sub = x-y;
         double mul = x*y;
         double div = x/y;
-        System.out.println("x+y=" + sum +"\nx-y=" + sub +"\nx*y=" + mul + "\nx/y=" + div);
+        double rem = x%y;
+
+        System.out.println(x + " + " + y + " = " + sum);
+        System.out.println(x + " - " + y + " = " + sub);
+        System.out.println(x + " * " + y + " = " + mul);
+        System.out.println(x + " / " + y + " = " + div);
+        System.out.println(x + " % " + y + " = " + rem);
     }
 }
