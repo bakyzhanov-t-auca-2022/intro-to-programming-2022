@@ -15,10 +15,10 @@ public class Problem04 {
         int div = x / y;
         int rem = x % y;
 
-        System.out.printf("%d + %d = %d\n", x, y, sum);
-        System.out.printf("%d - %d = %d\n", x, y, sub);
-        System.out.printf("%d * %d = %d\n", x, y, mul);
-        System.out.printf("%d / %d = %d\n", x, y, div);
-        System.out.printf("%d %% %d = %d", x, y, rem);
+        System.out.println(x + " + " + y + " = " + sum);
+        System.out.println(x + " - " + y + " = " + sub);
+        System.out.println(x + " * " + y + " = " + mul);
+        System.out.println(x + " / " + y + " = " + div);
+        System.out.println(x + " % " + y + " = " + rem);
     }
 }
