@@ -7,5 +7,6 @@ public class Problem03 {
         int m = scanner.nextInt();
         int o = m + m - y;
         System.out.println(o);
+
     }
 }
