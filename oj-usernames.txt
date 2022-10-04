@@ -1,0 +1,2 @@
+Kattis.username : temirlan-bakyzhanov
+DMOJ.username : bakyzhanov_temirlan_2022
