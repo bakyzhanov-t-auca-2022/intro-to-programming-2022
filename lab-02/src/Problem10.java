@@ -12,6 +12,7 @@ public class Problem10 {
         double death = y * second / 13;
         double imm = y * second /45;
         double done = current + birth - death + imm;
+
         int bone = (int) Math.round(done);
 
         System.out.printf("The population in %d years is %d",y,bone);
