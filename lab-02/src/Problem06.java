@@ -6,6 +6,7 @@ public class Problem06 {
         Scanner scanner = new Scanner(System.in);
         double c = scanner.nextDouble();
         double f = c * 9 / 5 +32;
-        System.out.printf("%.1f Celsius is %.1f Fahrenheit",c,f);
+        System.out.println(c+" Celsius is "+f+" Fahrenheit");
+
     }
 }

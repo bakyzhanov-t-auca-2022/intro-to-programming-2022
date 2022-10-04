@@ -7,7 +7,7 @@ public class Problem08 {
         double p = scanner.nextDouble();
         double kg = p * 0.454;
 
-        System.out.printf("%.1f pounds is %.3f kilograms",p,kg);
-        //Как показывать double без 0
+        System.out.println(p+" pounds is "+kg+" kilograms");
+
     }
 }
